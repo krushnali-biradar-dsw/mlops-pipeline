@@ -28,3 +28,4 @@ jobs:
           context: ./inference
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/mlops-inference:latest
+          provenance: false
